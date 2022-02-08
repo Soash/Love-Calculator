@@ -1,0 +1,81 @@
+/*Author : Soash*/
+
+body, html{
+  height: 100%;
+  margin: 0;}
+
+.bg {
+  background-image: url("love.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+ 
+.form_bg{
+	border: 0.5vw solid Tomato;
+	border-radius: 10px;
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	width: 75%;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow:10px 10px 50px 10px tomato;}
+
+legend{
+	font-size: 8vw;
+	margin: 2vw 0vw 2vw 5vw;
+	color: tomato;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px grey;}
+
+input[type=text]{
+	width: 88%;
+	padding: 2vw;
+	margin: 2vw;
+	border: 0.5vw solid tomato;
+	border-radius: 5px;
+	color: tomato;
+	font-size: 6vw;
+	box-shadow:2px 2px 10px tomato;}
+
+input[type=submit],a{
+	width: 50%;
+	padding: 2vw;
+	margin: 2vw;
+	background-color: tomato;
+	border: 0.5vw solid Tomato;
+	border-radius: 5px;
+	color: white;
+	font-size: 5vw;}
+	
+::placeholder{
+  color: Tomato;
+  opacity: 1;}
+  
+.grid-container {
+ 		display: grid;
+ 		grid-template-columns: auto;
+ 		padding: 20px;}
+.grid-container > div{
+ 		padding: 20px;
+ 		text-align: center;}
+.item1{
+		background-color: tomato;
+		color: white;
+		font-size: 8vw;
+		border: 1px solid tomato;
+		border-radius: 10px;}
+.item2{
+		color: Grey;
+		background-color: PapayaWhip;
+		font-size: 6vw;
+		text-align:center;
+		margin: 10px;
+		border: 3px solid tomato;
+		border-radius: 10px;}
+.gaan{
+		background-color: white;
+		border: 2px solid tomato;
+		margin: 5px;
+		padding: 15px;
+		font-size: 5vw;}
